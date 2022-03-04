@@ -27,7 +27,7 @@ jobs:
 
   release:
     needs: test
-    if: github.ref == 'refs/tags/*'
+    if: ${{ github.ref == 'refs/tags/*' }}
     defaults:
       run:
         working-directory: ./examples/is-even
