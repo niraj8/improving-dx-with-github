@@ -1,4 +1,4 @@
-name: ci:is-even
+name: is-even
 
 on:
   pull_request: {}
