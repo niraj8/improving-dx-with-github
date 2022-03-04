@@ -1,5 +1,9 @@
 {
-  "name": "is-even",
+  "name": "@lastvoice/is-even",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/lastvoice/improving-dx-with-github.git"
+	},
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
