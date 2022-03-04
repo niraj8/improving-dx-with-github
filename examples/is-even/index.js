@@ -1,5 +1,5 @@
 const isEven = function (number) {
-	// TODO implement
+	return number % 2 === 0;
 }
 
 module.exports = isEven;
