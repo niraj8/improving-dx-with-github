@@ -1,5 +1,5 @@
 const isEven = function (number) {
-	return number % 2 === 0;
+	// TODO: Implement the function
 }
 
 module.exports = isEven;
