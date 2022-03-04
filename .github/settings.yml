@@ -2,7 +2,7 @@ repository:
   name: improving-dx-with-github
   # description: Code samples for https://medly.tech/events/improving-developer-experience-with-github
   default_branch : main
-  private : false
+  private : true
   has_issues: true
   has_wiki: false
   has_projects: false
