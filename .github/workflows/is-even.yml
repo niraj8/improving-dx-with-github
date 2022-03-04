@@ -28,6 +28,9 @@ jobs:
   release:
     needs: test
     if: github.ref == 'refs/tags/*'
+    defaults:
+      run:
+        working-directory: ./examples/is-even
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
