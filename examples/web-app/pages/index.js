@@ -13,6 +13,7 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<a href="https://github.com/niraj8/improving-dx-with-github">
+					<h2>Hello, Meetup!</h2>
 					<p>./examples/web-app</p>
 				</a>
 
